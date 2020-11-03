@@ -1,0 +1,101 @@
+@import './Palette.scss';
+
+.nav-bar {
+  position: absolute;
+  top: 35%;
+  left: 10px;
+  display: block;
+  height: 250px;
+  width: 190px;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.circle-bg
+  {
+    border-radius: 10%;
+    background-color: white;
+    width: 330px;
+    height: 360px; 
+    position: absolute;
+    transform: translate(-50%, -18%);
+  }
+
+.vl {
+  border-left: 1px solid $light-indigo;
+  height: 70%;
+  position: absolute;
+  margin-left: 30px;
+  top: 0;
+}
+
+.number {
+  width: 50px;
+}
+
+.plus {
+  left: 23px;
+  transform: translate(0%, -15%);
+  visibility: hidden;
+  font-size: 1.2em;
+
+  .focused > &{
+    visibility: visible;
+  }
+}
+
+.subcat-wrap {
+  height: 8vh;
+}
+
+.subcat {
+  font-size: .7em;
+  color: $light-indigo;
+  text-decoration: none;
+  transition: .5s color;
+  font-weight: 800;
+
+  div {
+    mix-blend-mode: multiply;
+  }
+}
+
+.subcat.focused {
+  color: $blue;
+}
+
+.subcat:hover, .subcat:active, .subcat.focused {
+  font-size: 1em;
+  text-decoration: none;
+  transform: translate(-1px, -2px);
+}
+
+.subcat:active {
+  color: white;
+}
+
+.subcat:active, .subcat:visited {
+  color: white;
+}
+
+.subcat:focus, .subcat:visited {
+  color: white;
+}
+
+.volunteer-link {
+  border: 2px solid $indigo;
+  color: $indigo;
+  background-color: white;
+  font-size: .8em;
+  text-decoration: none;
+  transition: .5s color;
+  font-weight: 800;
+
+  &:hover {
+    background-color: $indigo-30;
+    color: white;
+    transition: all 0.3s ease 0s;
+  }
+}

@@ -1,0 +1,47 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "./Palette.scss";
+
+$theme-colors: (
+  // "primary": $gold,
+  // "secondary": $intus-navy,
+  // "dark": $dark-grey,
+  // "muted": $intus-gray,
+  // "danger": $risk-red,
+  // "info": $risk-blue,
+  // "warning": $risk-yellow,
+  // "success": $green,
+);
+
+@import "../../node_modules/bootstrap";
+
+@media (max-width: 767px) { 
+  .px-5 {
+    padding-right: 1em !important;
+    padding-left: 1em !important;
+  }
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}

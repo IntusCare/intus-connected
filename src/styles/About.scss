@@ -1,0 +1,36 @@
+@import './Palette.scss';
+
+.about-background {
+  position: relative;
+  background-image: linear-gradient($indigo, $magenta);
+  z-index: -2;
+  padding-bottom: 5vh;
+}
+
+.intus-link {
+  position: relative;
+  margin-top: -250px;
+  z-index: 9999 !important;
+  cursor: pointer;
+  border: 2px solid white;
+  background-color: $white-30;
+  color: white;
+
+  @media (max-width: 767px) { 
+    margin-top: -200px;
+  }
+
+  &:hover {
+    background-color: $white;
+    color: $indigo;
+    transition: all 0.3s ease 0s;
+  }
+}
+
+.about-box {
+  background-color: $white-30;
+  border-radius: 2em;
+  width: 50%;
+  color: white;
+}
+

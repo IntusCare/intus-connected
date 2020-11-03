@@ -1,0 +1,64 @@
+@import './Palette.scss';
+
+.img70 {
+  width: 70vw;
+}
+
+.img45 {
+  height: 45vw;
+}
+
+.img-profile {
+  height: 30vw;
+  // width: 30vw;
+  border-radius: 100%;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+.auto-height {
+  height: auto;
+}
+
+.text-indigo {
+  color: $indigo;
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-white-60 {
+  color: $white-60;
+}
+
+.extra-bold {
+  font-weight: bolder;
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+}
+
+.neutral-z {
+  z-index: 0;
+}
+
+.link-style {
+  text-decoration: underline;
+  color: $light-indigo;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.for-mobile {
+  display: none;
+
+  @media (max-width: 767px) { 
+    display: block;
+  }
+}

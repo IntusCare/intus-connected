@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* em part is the "bottom-out" size-even when vw really small, it will keep this size
+vw is how responsive the text will be–the thigher the vw, the bigger it'll be on big screens, smaller on small screens */
+html {
+  font-size: calc(.2em + 1.2vw);
+  overflow-x: hidden;
+}

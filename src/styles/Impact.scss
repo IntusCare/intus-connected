@@ -1,0 +1,9 @@
+@import './Palette.scss';
+
+.impact-background {
+  position: relative;
+  background-image: linear-gradient($magenta, $magenta-pink, $pink);
+  z-index: -2;
+  display:inline-block;
+  padding-bottom: 5vh;
+}
