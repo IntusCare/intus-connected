@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2570" height="4223" viewBox="0 0 2570 4223">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fecfe3"/>
+      <stop offset="1" stop-color="#bf5583" stop-opacity="0.471"/>
+    </linearGradient>
+  </defs>
+  <g id="About_us_bubbles_" data-name="About us bubbles " transform="translate(534 -5776)">
+    <circle id="Ellipse_86" data-name="Ellipse 86" cx="100" cy="100" r="100" transform="translate(1580 7449)" opacity="0.276" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_31" data-name="Ellipse 31" cx="337" cy="337" r="337" transform="translate(1019 7926)" opacity="0.276" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_92" data-name="Ellipse 92" cx="337" cy="337" r="337" transform="translate(-534 5776)" opacity="0.087" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_83" data-name="Ellipse 83" cx="215" cy="215" r="215" transform="translate(1350 8800)" opacity="0.276" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_84" data-name="Ellipse 84" cx="100" cy="100" r="100" transform="translate(807 8535)" opacity="0.276" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_89" data-name="Ellipse 89" cx="100" cy="100" r="100" transform="translate(476 9401)" opacity="0.276" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_85" data-name="Ellipse 85" cx="169" cy="169" r="169" transform="translate(1304 9541)" opacity="0.276" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_87" data-name="Ellipse 87" cx="66" cy="66" r="66" transform="translate(1009 8995)" opacity="0.276" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_91" data-name="Ellipse 91" cx="152" cy="152" r="152" transform="translate(1732 5961)" opacity="0.276" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_90" data-name="Ellipse 90" cx="66" cy="66" r="66" transform="translate(741 6632)" opacity="0.276" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_88" data-name="Ellipse 88" cx="66" cy="66" r="66" transform="translate(907 9867)" opacity="0.276" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
