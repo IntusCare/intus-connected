@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7371d9b16da58528e8c920f51a4d77f3",
+    "revision": "610bc7004682e974e0495232f1981ef0",
     "url": "/intus-connected/index.html"
   },
   {
