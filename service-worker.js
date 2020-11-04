@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/intus-connected/precache-manifest.854be60eb71cc725ded30c3a58f51a71.js"
+  "/intus-connected/precache-manifest.c6b68d1b982a07b97d1db555b0d288bf.js"
 );
 
 self.addEventListener('message', (event) => {
