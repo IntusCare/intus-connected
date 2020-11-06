@@ -65,7 +65,7 @@ const About = () => {
             </div>
           </Row>
           <Row className="px-5 mx-5 py-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
-            <h2 className="font-weight-bold text-white pt-3">our team!</h2>
+            <h2 className="font-weight-bold text-white pt-3">our team</h2>
           </Row>
           <Row className="px-5 mx-5 py-5 d-flex flex-row align-items-center justify-content-between">
             <p className="text-white pt-4" style={{ position: 'relative' }}>
@@ -117,7 +117,7 @@ const About = () => {
             </div>
           </Row>
           <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
-            <h2 className="font-weight-bold text-white-60">volunteer testimonials</h2>
+            <h2 className="font-weight-bold text-white-60">Testimonials</h2>
           </Row>
           <Row className="d-flex flex-column align-items-start justify-content-left py-5 px-5 mx-4 my-5 position-relative">
             <div className="background position-absolute" style={{ left: '-10vw', top: '0' }}>

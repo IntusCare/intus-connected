@@ -27,7 +27,7 @@ const Impact = () => {
           <ScrollableAnchor id={'impact'}>
             <div style={{ height: '5vh' }} />
           </ScrollableAnchor>
-          <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold pt-5 pb-3 px-5 m-5">
+          <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold py-5 pb-3 px-5 m-5">
             <h1 className="p-0 m-0 extra-bold">impact</h1>
             <Heart className="pb-4 pl-3" style={{ fill: "#ffffff", width: '4vw' }} />
           </Row>
@@ -56,9 +56,9 @@ const Impact = () => {
             </div>
           </Row>
           <ScrollableAnchor id={'impactFocus'}>
-            <div style={{ height: '3vh' }} />
+            <div style={{ height: '5vh' }} />
           </ScrollableAnchor>
-          <Row className="px-5 mx-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
+          <Row className="p-5 mx-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
             <h2 className="font-weight-bold text-white-60">COVID Social Isolation</h2>
             <bk />
             <h2 className="font-weight-bold text-white-60"> and Mental Health</h2>
