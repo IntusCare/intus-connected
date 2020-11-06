@@ -123,25 +123,34 @@ const About = () => {
             <div className="background position-absolute" style={{ left: '-10vw', top: '0' }}>
               <Circle style={{ width: '70vw' }} />
             </div>
-            <p className="text-white px-4 pb-1 mx-5" style={{ width: '40vw' }}>
-                Testimonial: Intus Care is a healthcare analytics platform that synthesizes financial, clinical, and administrative data 
-            </p>
+            <div className="d-flex flex-column">
+              <p className="text-white px-4 pb-1 mx-5" style={{ width: '40vw' }}>
+                "My weekly calls with my CONNECTED Senior are what get me through quarantine! After our first call, she told me her best friend of 40 years is named Joanne and she knew immediately after talking to me we were meant to be connected."
+              </p>
+              <h5 className="font-weight-bold text-white-60 pr-5 align-self-end mr-5">-a Volunteer</h5>
+            </div>
           </Row>
           <Row className="d-flex flex-column align-items-end justify-content-right py-5 px-5 mx-4 my-5 position-relative">
             <div className="background position-absolute" style={{ right: '-10vw', top: '0' }}>
               <Circle style={{ width: '70vw' }} />
             </div>
-            <p className="text-white px-4 pb-1 mx-5" style={{ width: '40vw' }}>
-                Testimonial: Intus Care is a healthcare analytics platform that synthesizes financial, clinical, and administrative data 
-            </p>
+            <div className="d-flex flex-column">
+              <p className="text-white px-4 pb-1 mx-5" style={{ width: '40vw' }}>
+                "Speaking with my CONNECTED friend reminds me of speaking with my grandchildren. It’s nice to hear from my new friend every week. It really makes me happy!"
+              </p>
+              <h5 className="font-weight-bold text-white-60 pr-5 align-self-end mr-5">-a Senior</h5>
+            </div>
           </Row>
           <Row className="d-flex flex-column align-items-start justify-content-left py-5 px-5 mx-4 my-5 position-relative">
             <div className="background position-absolute" style={{ left: '-10vw', top: '0' }}>
               <Circle style={{ width: '70vw' }} />
             </div>
-            <p className="text-white px-4 pb-1 mx-5" style={{ width: '40vw' }}>
-                Testimonial: Intus Care is a healthcare analytics platform that synthesizes financial, clinical, and administrative data 
-            </p>
+            <div className="d-flex flex-column">
+              <p className="text-white px-4 pb-1 mx-5" style={{ width: '40vw' }}>
+                "This initiative could not have come at a better time! By seeing our Seniors smile again from volunteers we know we made the right decision to participate."
+              </p>
+              <h5 className="font-weight-bold text-white-60 pr-5 align-self-end mr-5">-a Coordinator</h5>
+            </div>
           </Row>
           <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
             <h2 className="font-weight-bold text-white-60">
