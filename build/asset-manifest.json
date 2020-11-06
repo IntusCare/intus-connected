@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.36c46c56.chunk.css",
+    "main.js": "/static/js/main.36ac6f44.chunk.js",
+    "main.js.map": "/static/js/main.36ac6f44.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eec436fe.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eec436fe.js.map",
+    "static/css/2.2a86faee.chunk.css": "/static/css/2.2a86faee.chunk.css",
+    "static/js/2.c6768b43.chunk.js": "/static/js/2.c6768b43.chunk.js",
+    "static/js/2.c6768b43.chunk.js.map": "/static/js/2.c6768b43.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.46bae207fa28172efb0f97ee01582f23.js": "/precache-manifest.46bae207fa28172efb0f97ee01582f23.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.36c46c56.chunk.css.map": "/static/css/main.36c46c56.chunk.css.map",
+    "static/js/2.c6768b43.chunk.js.LICENSE.txt": "/static/js/2.c6768b43.chunk.js.LICENSE.txt",
+    "static/media/about_bubbles.b9d8db98.svg": "/static/media/about_bubbles.b9d8db98.svg",
+    "static/media/brain_drawing.dfc6ff21.svg": "/static/media/brain_drawing.dfc6ff21.svg",
+    "static/media/bridge.a15376e6.svg": "/static/media/bridge.a15376e6.svg",
+    "static/media/color_gradient_bubble.png": "/static/media/color_gradient_bubble.35095da8.png",
+    "static/media/connected-logos-indigo.png": "/static/media/connected-logos-indigo.1729697e.png",
+    "static/media/ellipse.431e8939.svg": "/static/media/ellipse.431e8939.svg",
+    "static/media/evan.jpg": "/static/media/evan.9177f128.jpg",
+    "static/media/hand_heart.1e690609.svg": "/static/media/hand_heart.1e690609.svg",
+    "static/media/heart.89a6530d.svg": "/static/media/heart.89a6530d.svg",
+    "static/media/iphone.764b29c0.svg": "/static/media/iphone.764b29c0.svg",
+    "static/media/joanne.png": "/static/media/joanne.279daf37.png",
+    "static/media/mail.1193d965.svg": "/static/media/mail.1193d965.svg",
+    "static/media/paper_letter.c7a91e27.svg": "/static/media/paper_letter.c7a91e27.svg",
+    "static/media/pink_smile.a8afdf8f.svg": "/static/media/pink_smile.a8afdf8f.svg",
+    "static/media/sophia.png": "/static/media/sophia.75d60bbd.png",
+    "static/media/white_circle.78d00b40.svg": "/static/media/white_circle.78d00b40.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eec436fe.js",
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.c6768b43.chunk.js",
+    "static/css/main.36c46c56.chunk.css",
+    "static/js/main.36ac6f44.chunk.js"
+  ]
+}
