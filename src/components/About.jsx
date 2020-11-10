@@ -96,7 +96,7 @@ const About = () => {
               <h3>Joanne</h3>
               <h4 className="font-weight-bold pb-4"> (Director of Operations)</h4>
               <p>
-                Joanne is a student-athlete studying Cognitive Science at Brown University. She aspires to be a practicing physician and work with underserved communities. She is a passionate advocate for mental health and reproductive health. After constantly communicating with her grandparents across the sea in South Korea through phone calles she realized she wanted to inspire that kind of connection for others during social isolation.                 </p>
+                Joanne is a student-athlete studying Cognitive Science at Brown University. She aspires to be a practicing physician and work with underserved communities. She is a passionate advocate for mental health and reproductive health. After constantly communicating with her grandparents across the sea in South Korea through phone calls she realized she wanted to inspire that kind of connection for others during social isolation.                 </p>
             </div>
             <img src={joanne} alt="joanne" className="img-profile" />
 
