@@ -125,7 +125,7 @@ const About = () => {
             </div>
             <div className="d-flex flex-column">
               <p className="text-white px-4 pb-1 mx-5" style={{ width: '40vw' }}>
-                "My weekly calls with my CONNECTED Senior are what get me through quarantine! After our first call, she told me her best friend of 40 years is named Joanne and she knew immediately after talking to me we were meant to be connected."
+                "My weekly calls with my CONNECTED Senior are what get me through quarantine! After our first call, she told me her best friend of 40 years has the same name as I do and she knew immediately after talking to me we were meant to be connected."
               </p>
               <h5 className="font-weight-bold text-white-60 pr-5 align-self-end mr-5">-a Volunteer</h5>
             </div>
