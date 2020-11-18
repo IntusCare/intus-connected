@@ -61,11 +61,13 @@ class NavBar extends React.Component {
             >
               <div className="plus position-absolute">+</div>
               <div className="number">4</div>
-              <div>GET <br /> INVOLVED</div>
+              <div style={{marginLeft: '-7px'}} className="px-1  rounded-lg volunteer-link cursor-pointer d-flex flex-row align-items-center justify-content-center">
+                <h4 className="extra-bold medium-text pt-1">GET <br /> INVOLVED</h4>
+              </div>
             </h4>
           </a>
         </div>
-        <div className="position-relative w-75 pt-2">
+        {/* <div className="position-relative w-75 pt-2">
           <a
             href="https://forms.gle/ykD6ZPyRhynVq6LfA"
             target="_blank"
@@ -74,7 +76,7 @@ class NavBar extends React.Component {
               VOLUNTEER
             </div>
           </a>
-        </div>
+        </div> */}
         {/* 
         <div className="subcat-wrap d-flex flex-row align-items-center">
           <a href={`#home`}>

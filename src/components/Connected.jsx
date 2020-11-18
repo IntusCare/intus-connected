@@ -26,8 +26,8 @@ const Connected = () => {
               <h5 className="pl-5 ml-5 text-indigo for-web">creating meaningful connections between the youth and the elderly</h5>
             </div>
             <div className="pb-5 w-100 d-flex flex-column align-items-center justify-content-center for-mobile">
-              <h5 className="text-indigo">creating meaningful connections</h5>
-              <h5 className="text-indigo">between the youth and the elderly</h5>
+              <h5 className="text-indigo for-mobile">creating meaningful connections</h5>
+              <h5 className="text-indigo for-mobile">between the youth and the elderly</h5>
             </div>
             <a
               className="for-mobile"

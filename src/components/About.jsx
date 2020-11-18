@@ -63,7 +63,7 @@ const About = () => {
             </p>
             </div>
             <div className="for-web">
-              <Dash1 style={{ width: '40vw', paddingTop: '5vh' }} />
+              <Dash1 style={{ width: '30vw', paddingTop: '5vh' }} />
             </div>
             <div className="for-mobile">
               <Dash1 style={{ width: '25vw', paddingTop: '5vh' }} />
@@ -71,7 +71,7 @@ const About = () => {
           </Row>
           <Row className="d-flex flex-row justify-content-end py-0 px-5 mx-4">
             <div className="for-web">
-              <Dash2 className="align-self-end" style={{ width: '40vw' }} />
+              <Dash2 className="align-self-end" style={{ width: '37vw' }} />
             </div>
             <div className="d-flex align-self-start flex-row align-items-center justify-content-start">
               <h1 className="big-text py-0 pl-5 pr-3 text-white-60">2. </h1>
