@@ -35,22 +35,22 @@ const Impact = () => {
             <div className="d-flex flex-column justify-content-center align-items-center px-2">
               <Brain style={{ fill: "#ffffff", width: '16vw' }} />
               <div className="pt-3">
-                <h3 className="text-white">COVID Social Isolation</h3>
-                <h3 className="text-white">and Mental Health</h3>
+                <h3 className="text-white">COVID social isolation</h3>
+                <h3 className="text-white">and mental health</h3>
               </div>
             </div>
             <div className="d-flex flex-column justify-content-center align-items-center px-3">
               <HandHeart style={{ fill: "#ffffff", width: '14.2vw' }} />
               <div className="pt-3">
-                <h3 className="text-white">Fostering empathy</h3>
+                <h3 className="text-white">fostering empathy</h3>
                 <h3 className="text-white">among generations</h3>
               </div>
             </div>
             <div className="d-flex flex-column justify-content-center align-items-center px-2">
               <Bridge style={{ fill: "#ffffff", width: '25vw' }} />
               <div className="pt-3">
-                <h3 className="text-white">Building a bridge</h3>
-                <h3 className="text-white">fighting ageism</h3>
+                <h3 className="text-white">building a bridge</h3>
+                <h3 className="text-white">to fight ageism</h3>
 
               </div>
             </div>
@@ -59,9 +59,9 @@ const Impact = () => {
             <div style={{ height: '5vh' }} />
           </ScrollableAnchor>
           <Row className="p-5 mx-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
-            <h2 className="font-weight-bold text-white-60">COVID Social Isolation</h2>
+            <h2 className="font-weight-bold text-white-60">COVID social isolation</h2>
             <bk />
-            <h2 className="font-weight-bold text-white-60"> and Mental Health</h2>
+            <h2 className="font-weight-bold text-white-60"> and mental health</h2>
           </Row>
           <Row className="d-flex flex-column align-items-center justify-content-center py-3 px-5 mx-4">
             <div className="d-flex flex-row align-items-end">
@@ -84,14 +84,14 @@ const Impact = () => {
           </Row>
           <Row className="px-5 mx-5 d-flex flex-column justify-content-left align-items-start text-white">
             <h2 className="font-weight-bold text-white-60">building a bridge</h2>
-            <h2 className="font-weight-bold text-white-60">fighting ageism</h2>
+            <h2 className="font-weight-bold text-white-60">to fight ageism</h2>
           </Row>
           <Row className="d-flex flex-column align-items-center justify-content-center py-5 px-5 mx-4">
             <div>
               <Bridge style={{ fill: "#ffffff", width: '25vw' }} />
             </div>
             <p className="text-white py-5 px-4 mx-5">
-              The generational gap is the perceived divide in opinion between generations.. A lack of empathy and connection between generations exacerbates this existing gap. With weekly conversations between Connected Friends, we aim to create a new, intergenerational wave of people that share stories and passions with an open mind and heart.</p>
+            Ageism is the discrimination and stereotyping against people based on age. It profoundly affects our elderly population’s overall health and wellbeing. At Connected, we want to break the stereotypes surrounding the elderly, and instead, build a community that promotes positive attitudes and beliefs toward older adults.</p>
           </Row>
         </Container>
       </div>

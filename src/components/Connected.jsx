@@ -22,6 +22,13 @@ const Connected = () => {
         <ScrollableAnchor id={'home'}>
           <Row className="vh-100 align-items-center pb-5 d-flex flex-column justify-content-center">
             <img src={connected} alt="Connected logo" className="img70 auto-height" />
+            <div className="w-100 d-flex flex-column align-items-end for-web">
+              <h5 className="pl-5 ml-5 text-indigo for-web">creating meaningful connections between the youth and the elderly</h5>
+            </div>
+            <div className="pb-5 w-100 d-flex flex-column align-items-center justify-content-center for-mobile">
+              <h5 className="text-indigo">creating meaningful connections</h5>
+              <h5 className="text-indigo">between the youth and the elderly</h5>
+            </div>
             <a
               className="for-mobile"
               href="https://forms.gle/ykD6ZPyRhynVq6LfA"
@@ -29,7 +36,7 @@ const Connected = () => {
             >
               <div className="px-3 py-2 rounded-lg volunteer-link cursor-pointer d-flex flex-row align-items-center justify-content-center">
                 VOLUNTEER
-            </div>
+              </div>
             </a>
           </Row>
         </ScrollableAnchor>
@@ -40,7 +47,7 @@ const Connected = () => {
           </Col>
           <Col lg={8}>
             <p className="text-indigo px-5 connected-description">
-              connected by Intus Care is an intergenerational connection program fostering relationships between our youth and elderly
+              connected by Intus Care is an intergenerational connection program fostering relationships between our youth volunteers and older adults in long term care
             </p>
           </Col>
           <div className="white-circle background">

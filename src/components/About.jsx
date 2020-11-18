@@ -8,10 +8,13 @@ import { ReactComponent as Mail } from '../assets/mail.svg';
 import { ReactComponent as Letter } from '../assets/paper_letter.svg';
 import { ReactComponent as Bubbles } from '../assets/about_bubbles.svg';
 import { ReactComponent as Circle } from '../assets/ellipse.svg';
+import { ReactComponent as Dash1 } from '../assets/dashed_1.svg';
+import { ReactComponent as Dash2 } from '../assets/dashed_2.svg';
+import { ReactComponent as Dash3 } from '../assets/dashed_3.svg';
+
 import evan from '../assets/evan.jpg';
 import joanne from '../assets/joanne.png';
 import sophia from '../assets/sophia.png';
-
 import gradientBubble from '../assets/color_gradient_bubble.png';
 import '../styles/About.scss';
 import '../styles/Impact.scss';
@@ -44,7 +47,7 @@ const About = () => {
           </Row>
           <Row className="d-flex flex-column align-items-center justify-content-center py-3 px-5 mx-4">
             <p className="text-white px-4 mx-5">
-              We are a group of passionate college students who, after seeing how social isolation detrimentally affected our grandparents’ mental health, realized that this issue could be improved through virtual interactions. Although we must remain physically distant, we believe that we do not have to stay socially distant. During this time, it’s more important than ever to stay CONNECTED.
+              We are a group of passionate college students who, after seeing how social isolation detrimentally affected our grandparents’ mental health, realized that this issue could be improved through telecommunication. Our program consists of weekly 20 minute phone calls between your seniors and our youth volunteers. Our volunteers are hand selected, vetted, and paired with your older adults based upon similar interests, hobbies, and time availability by our Connected team. During this time, it's more important than ever to stay connected.
             </p>
           </Row>
           <ScrollableAnchor id={'aboutFocus'}>
@@ -52,18 +55,79 @@ const About = () => {
               <h2 className="font-weight-bold text-white-60 pt-2">how we do it</h2>
             </Row>
           </ScrollableAnchor>
-          <Row className="d-flex flex-column align-items-center justify-content-center pt-4 px-5 mx-4">
-            <p className="text-white px-4 mx-5">
-              We individually match our Elderly Friends with college students for weekly phone calls.
-          </p>
-          </Row>
-          <Row className="d-flex flex-column align-items-center justify-content-around py-4 px-5 mx-4">
-            <div className="d-flex flex-row align-items-end">
-              <Phone className="mx-4" style={{ fill: "#ffffff", height: '20vw' }} />
-              {/* <Mail className="mx-4" style={{ fill: "#ffffff", width: '15vw' }} />
-              <Letter className="mx-4" style={{ fill: "#ffffff", height: '20vw' }} /> */}
+          <Row className="d-flex flex-row align-items-start justify-content-start pt-4 px-5 mx-4">
+            <div className="d-flex flex-row align-items-center justify-content-start">
+              <h1 className="big-text pl-5 pr-3 text-white-60">1.</h1>
+              <p className="text-white p-3">
+                We process your application
+            </p>
+            </div>
+            <div className="for-web">
+              <Dash1 style={{ width: '40vw', paddingTop: '5vh' }} />
+            </div>
+            <div className="for-mobile">
+              <Dash1 style={{ width: '25vw', paddingTop: '5vh' }} />
             </div>
           </Row>
+          <Row className="d-flex flex-row justify-content-end py-0 px-5 mx-4">
+            <div className="for-web">
+              <Dash2 className="align-self-end" style={{ width: '40vw' }} />
+            </div>
+            <div className="d-flex align-self-start flex-row align-items-center justify-content-start">
+              <h1 className="big-text py-0 pl-5 pr-3 text-white-60">2. </h1>
+              <div className="d-flex flex-column align-items-start justify-content-center">
+                <p className="text-white p-0 m-0">
+                  We individually match your Seniors
+              </p>
+                <p className="text-white p-0 m-0">
+                  with our youth volunteers.
+              </p>
+              </div>
+            </div>
+            <div className="for-mobile">
+              <Dash2 className="justify-self-center " style={{ width: '30vw', marginTop: '5vh', marginRight: '25vw', transform: 'rotate(120deg)' }} />
+            </div>
+          </Row>
+          <Row className="d-flex flex-row align-items-center justify-content-start pt-4 px-5 mx-4">
+            <div className="d-flex align-self-start flex-row align-items-center justify-content-start pr-5">
+              <h1 className="big-text pl-5 pr-3 text-white-60">3. </h1>
+              <div className="d-flex flex-column align-items-start justify-content-center">
+                <p className="text-white p-0 m-0">
+                  Our volunteers call your Seniors
+              </p>
+                <p className="text-white p-0 m-0">
+                  weekly at a set date and time.
+              </p>
+              </div>
+            </div>
+            <div className="for-web">
+              <Dash3 className="align-self-end" style={{ width: '35vw', paddingTop: '150px' }} />
+            </div>
+            <div className="for-mobile">
+              <Dash3 className="align-self-end ml-5 pl-5" style={{ width: '35vw' }} />
+            </div>
+          </Row>
+          <Row className="d-flex flex-row align-items-center justify-content-end pb-5 px-5 mx-4">
+            <h1 className="big-text pl-5 pr-3 text-white-60">4. </h1>
+            <div className="d-flex flex-column align-items-start justify-content-center">
+              <p className="text-white p-0 m-0">
+                Isolation and feelings of loneliness
+              </p>
+              <p className="text-white p-0 m-0">
+                are reduced for both your older adults
+              </p>
+              <p className="text-white p-0 m-0">
+                and our youth volunteers.
+              </p>
+            </div>
+          </Row>
+          {/* <Row className="d-flex flex-column align-items-center justify-content-around py-4 px-5 mx-4">
+            <div className="d-flex flex-row align-items-end">
+              <Phone className="mx-4" style={{ fill: "#ffffff", height: '20vw' }} />
+              <Mail className="mx-4" style={{ fill: "#ffffff", width: '15vw' }} />
+              <Letter className="mx-4" style={{ fill: "#ffffff", height: '20vw' }} />
+            </div>
+          </Row> */}
           <Row className="px-5 mx-5 py-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
             <h2 className="font-weight-bold text-white pt-3">our team</h2>
           </Row>
@@ -117,7 +181,7 @@ const About = () => {
             </div>
           </Row>
           <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
-            <h2 className="font-weight-bold text-white-60">Testimonials</h2>
+            <h2 className="font-weight-bold text-white-60">testimonials</h2>
           </Row>
           <Row className="d-flex flex-column align-items-start justify-content-left py-5 px-5 mx-4 my-5 position-relative">
             <div className="background position-absolute" style={{ left: '-10vw', top: '0' }}>
