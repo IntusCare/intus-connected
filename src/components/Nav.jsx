@@ -18,6 +18,55 @@ class NavBar extends React.Component {
     };
   }
 
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll = () => {
+    // if (window.scrollY > 1) {
+    //     console.log('hi1', window.scrollY);
+    //     console.log(window.location.href);
+    // }
+    // if (window.location.href.split('#').length > 1) {
+      console.log("before", window.scrollY)
+      const focusRef = window.location.href.split('#').length > 1 ? window.location.href.split('#')[1] : window.location.href.split('#')[0];
+      if (focusRef === 'home' || (window.scrollY < 720)) {
+        console.log('home', window.scrollY);
+        this.setState({ focus: 'home' });
+      } else if ((focusRef === 'about') || (focusRef === 'aboutFocus') || (720 < window.scrollY && window.scrollY < 1950)) {
+        console.log('about');
+
+        this.setState({ focus: 'about' });
+      } else if ((focusRef === 'impact') || (focusRef === 'impactFocus') || (1950 < window.scrollY && window.scrollY < 2730)) {
+        this.setState({ focus: 'impact' });
+        console.log('impact');
+
+      } else if ((focusRef === 'involved') || (2730 <= window.scrollY)) {
+        console.log('involved');
+
+        this.setState({ focus: 'involved' });
+      }
+      console.log('hitting none');
+      console.log(window.scrollY);
+
+      console.log(720 < window.scrollY && window.scrollY <  1950);
+    // }
+    // if (window.scrollY > 20) {
+    //   console.log('hi1');
+    //   console.log(window.location.href);
+    //   // document.querySelector(".navbar").className = "navbar scroll";
+    // } else {
+    //   console.log('2');
+    //   console.log(window.location.href);
+
+    //   // document.querySelector(".navbar").className = "navbar";
+    // }
+  };
+
   render() {
     return (
       <div className="nav-bar">
@@ -61,7 +110,7 @@ class NavBar extends React.Component {
             >
               <div className="plus position-absolute">+</div>
               <div className="number">4</div>
-              <div style={{marginLeft: '-7px'}} className="px-1  rounded-lg volunteer-link cursor-pointer d-flex flex-row align-items-center justify-content-center">
+              <div style={{ marginLeft: '-7px' }} className="px-1  rounded-lg volunteer-link cursor-pointer d-flex flex-row align-items-center justify-content-center">
                 <h4 className="extra-bold medium-text pt-1">GET <br /> INVOLVED</h4>
               </div>
             </h4>

@@ -25,36 +25,39 @@ const Impact = () => {
           className="w-100 p-0 px-5"
         >
           <ScrollableAnchor id={'impact'}>
-            <div style={{ height: '5vh' }} />
-          </ScrollableAnchor>
-          <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold py-5 pb-3 px-5 m-5">
-            <h1 className="p-0 m-0 extra-bold">impact</h1>
-            <Heart className="pb-4 pl-3" style={{ fill: "#ffffff", width: '4vw' }} />
-          </Row>
-          <Row className="d-flex flex-row text-wrap justify-content-center align-items-start pb-5">
-            <div className="d-flex flex-column justify-content-center align-items-center px-2">
-              <Brain style={{ fill: "#ffffff", width: '16vw' }} />
-              <div className="pt-3">
-                <h3 className="text-white">COVID social isolation</h3>
-                <h3 className="text-white">and mental health</h3>
-              </div>
-            </div>
-            <div className="d-flex flex-column justify-content-center align-items-center px-3">
-              <HandHeart style={{ fill: "#ffffff", width: '14.2vw' }} />
-              <div className="pt-3">
-                <h3 className="text-white">fostering empathy</h3>
-                <h3 className="text-white">among generations</h3>
-              </div>
-            </div>
-            <div className="d-flex flex-column justify-content-center align-items-center px-2">
-              <Bridge style={{ fill: "#ffffff", width: '25vw' }} />
-              <div className="pt-3">
-                <h3 className="text-white">building a bridge</h3>
-                <h3 className="text-white">to fight ageism</h3>
+            <div>
+              <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold py-5 pb-3 px-5 m-5">
+                <h1 className="p-0 m-0 extra-bold">impact</h1>
+                <Heart className="pb-4 pl-3" style={{ fill: "#ffffff", width: '4vw' }} />
+              </Row>
 
-              </div>
+              <Row className="d-flex flex-row text-wrap justify-content-center align-items-start pb-5">
+                <div className="d-flex flex-column justify-content-center align-items-center px-2">
+                  <Brain style={{ fill: "#ffffff", width: '16vw' }} />
+                  <div className="pt-3">
+                    <h3 className="text-white">COVID social isolation</h3>
+                    <h3 className="text-white">and mental health</h3>
+                  </div>
+                </div>
+                <div className="d-flex flex-column justify-content-center align-items-center px-3">
+                  <HandHeart style={{ fill: "#ffffff", width: '14.2vw' }} />
+                  <div className="pt-3">
+                    <h3 className="text-white">fostering empathy</h3>
+                    <h3 className="text-white">among generations</h3>
+                  </div>
+                </div>
+                <div className="d-flex flex-column justify-content-center align-items-center px-2">
+                  <Bridge style={{ fill: "#ffffff", width: '25vw' }} />
+                  <div className="pt-3">
+                    <h3 className="text-white">building a bridge</h3>
+                    <h3 className="text-white">to fight ageism</h3>
+
+                  </div>
+                </div>
+              </Row>
             </div>
-          </Row>
+          </ScrollableAnchor>
+
           <ScrollableAnchor id={'impactFocus'}>
             <div style={{ height: '5vh' }} />
           </ScrollableAnchor>
@@ -91,7 +94,7 @@ const Impact = () => {
               <Bridge style={{ fill: "#ffffff", width: '25vw' }} />
             </div>
             <p className="text-white py-5 px-4 mx-5">
-            Ageism is the discrimination and stereotyping against people based on age. It profoundly affects our elderly population’s overall health and wellbeing. At Connected, we want to break the stereotypes surrounding the elderly, and instead, build a community that promotes positive attitudes and beliefs toward older adults.</p>
+              Ageism is the discrimination and stereotyping against people based on age. It profoundly affects our elderly population’s overall health and wellbeing. At Connected, we want to break the stereotypes surrounding the elderly, and instead, build a community that promotes positive attitudes and beliefs toward older adults.</p>
           </Row>
         </Container>
       </div>

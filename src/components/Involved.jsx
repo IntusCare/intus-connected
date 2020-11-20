@@ -18,10 +18,10 @@ const Involved = () => {
       <Container
         fluid
         className="w-100 p-0 px-5"
+        id={'involved'}
       >
         <ScrollableAnchor id={'involved'}>
-          <div style={{ height: '5vh' }} />
-        </ScrollableAnchor>
+          <div>
         <Row className="d-flex flex-column justify-content-center align-items-center text-white font-weight-bold pt-5 m-5">
             <h1 className="pt-3 m-0 extra-bold">get involved</h1>
             <h5 className="pt-3 m-0">click the button below to apply</h5>
@@ -48,6 +48,10 @@ const Involved = () => {
             </a>
           </div>
         </Row>
+        <div style={{ height: '15vh' }} />
+        </div>
+        </ScrollableAnchor>
+
         {/* <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
           <h2 className="font-weight-bold text-white-60">Application Process</h2>
           <p className="text-white px-4 py-5 mx-5">
