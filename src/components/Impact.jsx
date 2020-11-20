@@ -26,6 +26,8 @@ const Impact = () => {
         >
           <ScrollableAnchor id={'impact'}>
             <div>
+              <div style={{ height: '10vh' }} />
+
               <Row className="d-flex justify-content-center align-items-end text-white font-weight-bold py-5 pb-3 px-5 m-5">
                 <h1 className="p-0 m-0 extra-bold">impact</h1>
                 <Heart className="pb-4 pl-3" style={{ fill: "#ffffff", width: '4vw' }} />
