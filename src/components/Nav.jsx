@@ -41,15 +41,15 @@ class NavBar extends React.Component {
         // console.log('about');
 
         this.setState({ focus: 'about' });
-      } else if ((focusRef === 'impact') || (focusRef === 'impactFocus') || (1950 < window.scrollY && window.scrollY < 2730)) {
-        this.setState({ focus: 'impact' });
-        // console.log('impact');
-
-      } else if ((focusRef === 'involved') || (2730 <= window.scrollY)) {
+      } else if ((focusRef === 'involved') || (2700 <= window.scrollY)) {
         // console.log('involved');
 
         this.setState({ focus: 'involved' });
-      }
+      } else if ((focusRef === 'impact') || (focusRef === 'impactFocus') || (1950 < window.scrollY && window.scrollY < 2700)) {
+        this.setState({ focus: 'impact' });
+        // console.log('impact');
+
+      } 
       // console.log('hitting none');
       // console.log(window.scrollY);
 
