@@ -32,28 +32,28 @@ class NavBar extends React.Component {
     //     console.log(window.location.href);
     // }
     // if (window.location.href.split('#').length > 1) {
-      console.log("before", window.scrollY)
+      // console.log("before", window.scrollY)
       const focusRef = window.location.href.split('#').length > 1 ? window.location.href.split('#')[1] : window.location.href.split('#')[0];
       if (focusRef === 'home' || (window.scrollY < 720)) {
-        console.log('home', window.scrollY);
+        // console.log('home', window.scrollY);
         this.setState({ focus: 'home' });
       } else if ((focusRef === 'about') || (focusRef === 'aboutFocus') || (720 < window.scrollY && window.scrollY < 1950)) {
-        console.log('about');
+        // console.log('about');
 
         this.setState({ focus: 'about' });
       } else if ((focusRef === 'impact') || (focusRef === 'impactFocus') || (1950 < window.scrollY && window.scrollY < 2730)) {
         this.setState({ focus: 'impact' });
-        console.log('impact');
+        // console.log('impact');
 
       } else if ((focusRef === 'involved') || (2730 <= window.scrollY)) {
-        console.log('involved');
+        // console.log('involved');
 
         this.setState({ focus: 'involved' });
       }
-      console.log('hitting none');
-      console.log(window.scrollY);
+      // console.log('hitting none');
+      // console.log(window.scrollY);
 
-      console.log(720 < window.scrollY && window.scrollY <  1950);
+      // console.log(720 < window.scrollY && window.scrollY <  1950);
     // }
     // if (window.scrollY > 20) {
     //   console.log('hi1');
