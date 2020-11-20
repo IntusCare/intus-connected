@@ -31,11 +31,11 @@ const Connected = () => {
             </div>
             <a
               className="for-mobile"
-              href="https://forms.gle/ykD6ZPyRhynVq6LfA"
-              target="_blank"
+              href="#involved"
+              // target="_blank"
             >
               <div className="px-3 py-2 rounded-lg volunteer-link cursor-pointer d-flex flex-row align-items-center justify-content-center">
-                VOLUNTEER
+                GET INVOLVED
               </div>
             </a>
           </Row>

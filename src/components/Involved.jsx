@@ -22,34 +22,36 @@ const Involved = () => {
       >
         <ScrollableAnchor id={'involved'}>
           <div>
-        <Row className="d-flex flex-column justify-content-center align-items-center text-white font-weight-bold pt-5 m-5">
-            <h1 className="pt-3 m-0 extra-bold">get involved</h1>
-            <h5 className="pt-3 m-0">click the button below to apply</h5>
-        </Row>
-        <Row className="d-flex flex-row justify-content-center align-items-center pb-5 mb-5 ">
-          <div className="position-relative px-4">
-            <a
-              href="https://forms.gle/ykD6ZPyRhynVq6LfA"
-              target="_blank"
-            >
-              <div className="px-5 py-3 rounded-lg form-link cursor-pointer">
-                <h4 className="font-weight-bold p-0 m-0">For volunteers</h4>
+          <div style={{ height: '10vh' }} />
+
+            <Row className="d-flex flex-column justify-content-center align-items-center text-white font-weight-bold pt-5 m-5">
+              <h1 className="pt-3 m-0 extra-bold">get involved</h1>
+              <h5 className="pt-3 m-0">click the button below to apply</h5>
+            </Row>
+            <Row className="d-flex flex-row justify-content-center align-items-center pb-5 mb-5 ">
+              <div className="position-relative px-4">
+                <a
+                  href="https://forms.gle/ykD6ZPyRhynVq6LfA"
+                  target="_blank"
+                >
+                  <div className="px-5 py-3 rounded-lg form-link cursor-pointer">
+                    <h4 className="font-weight-bold p-0 m-0">For volunteers</h4>
+                  </div>
+                </a>
               </div>
-            </a>
-          </div>
-          <div className="position-relative px-4">
-            <a
-              href="https://forms.gle/AfCERiH7EMHrC4tW6"
-              target="_blank"
-            >
-              <div className="px-5 py-3 rounded-lg form-link cursor-pointer">
-                <h4 className="font-weight-bold p-0 m-0">For organizations</h4>
+              <div className="position-relative px-4">
+                <a
+                  href="https://forms.gle/AfCERiH7EMHrC4tW6"
+                  target="_blank"
+                >
+                  <div className="px-5 py-3 rounded-lg form-link cursor-pointer">
+                    <h4 className="font-weight-bold p-0 m-0">For organizations</h4>
+                  </div>
+                </a>
               </div>
-            </a>
+            </Row>
+            <div style={{ height: '15vh' }} />
           </div>
-        </Row>
-        <div style={{ height: '15vh' }} />
-        </div>
         </ScrollableAnchor>
 
         {/* <Row className="px-5 mx-5 pt-5 d-flex flex-column justify-content-left align-items-start text-white font-weight-bold">
